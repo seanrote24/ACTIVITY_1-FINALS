@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My PHP Website</title>
-        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
         <style>
             body { font-family: 'Raleway', Arial, Helvetica, sans-serif; margin: 0; padding: 0; background: #0a0a0a; color: #e8c96a; }
             nav { background: linear-gradient(90deg, #0a0a0a 0%, #1a1400 50%, #0a0a0a 100%); padding: 0 40px; border-bottom: 1px solid #b8960c; box-shadow: 0 2px 20px rgba(184,150,12,0.3); display: flex; align-items: center; justify-content: space-between; height: 64px; position: relative; }
