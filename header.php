@@ -4,20 +4,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My PHP Website</title>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
         <style>
-            body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 20px; background: white;}
-            nav {background: #333; padding: 10px;}
-            nav a {color: white; margin: 0 15px; text-decoration: none;}
-            .container {background: white;padding: 20px; margin-top: 20px;border-radius: 5px;}
+            body { font-family: 'Raleway', Arial, Helvetica, sans-serif; margin: 0; padding: 0; background: #0a0a0a; color: #e8c96a; }
+            nav { background: linear-gradient(90deg, #0a0a0a 0%, #1a1400 50%, #0a0a0a 100%); padding: 0 40px; border-bottom: 1px solid #b8960c; box-shadow: 0 2px 20px rgba(184,150,12,0.3); display: flex; align-items: center; justify-content: space-between; height: 64px; position: relative; }
+            nav a { color: #e8c96a; margin: 0; text-decoration: none; }
         </style>
     </head>
-    <body>
-        <nav>
-            <?php
-            echo '<a href="index.php">Home</a>';
-            echo '<a href="about.php">About</a>';
-            echo '<a href="contact.php">Contact</a>';
-            ?>
+    <body style="font-family: 'Raleway', sans-serif; margin: 0; padding: 0; background: #0a0a0a; color: #e8c96a;">
+
+        <nav style="background: linear-gradient(90deg, #0a0a0a 0%, #1a1400 50%, #0a0a0a 100%); padding: 0 40px; border-bottom: 1px solid #b8960c; box-shadow: 0 2px 20px rgba(184,150,12,0.3); display: flex; align-items: center; justify-content: space-between; height: 64px; position: relative;">
+
+         <span style="font-family: 'Cinzel', serif; font-size: 18px; font-weight: 700; letter-spacing: 3px; color: #f5c842; text-transform: uppercase;">𓅓 PHP WEBSITE</span>
+            
+            <div style="display: flex; gap: 8px; align-items: center;">
+                <?php
+                echo '<a href="index.php" style="color: #e8c96a; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 20px; border: 1px solid transparent;">Home</a>';
+                echo '<a href="about.php" style="color: #e8c96a; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 20px; border: 1px solid transparent;">About</a>';
+                echo '<a href="contact.php" style="color: #0a0a0a; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 20px; background: linear-gradient(135deg, #d4a017, #f5c842); border: 1px solid #f5c842; font-weight: 600;">Contact</a>';
+                ?>
+            </div>
         </nav>
-        <div class="container">
+
     </body>
+</html>
