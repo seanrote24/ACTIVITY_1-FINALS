@@ -14,13 +14,11 @@
 
         <nav style="background: linear-gradient(90deg, #0a0a0a 0%, #1a1400 50%, #0a0a0a 100%); padding: 0 40px; border-bottom: 1px solid #b8960c; box-shadow: 0 2px 20px rgba(184,150,12,0.3); display: flex; align-items: center; justify-content: space-between; height: 64px; position: relative;">
 
-         <span style="font-family: 'Cinzel', serif; font-size: 18px; font-weight: 700; letter-spacing: 3px; color: #f5c842; text-transform: uppercase;">𓅓 PHP WEBSITE</span>
-            
             <div style="display: flex; gap: 8px; align-items: center;">
                 <?php
                 echo '<a href="index.php" style="color: #e8c96a; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 20px; border: 1px solid transparent;">Home</a>';
                 echo '<a href="about.php" style="color: #e8c96a; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 20px; border: 1px solid transparent;">About</a>';
-                echo '<a href="contact.php" style="color: #0a0a0a; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 20px; background: linear-gradient(135deg, #d4a017, #f5c842); border: 1px solid #f5c842; font-weight: 600;">Contact</a>';
+                echo '<a href="contact.php" style="color: #e8c96a; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 20px; border: 1px solid transparent">Contact</a>';
                 ?>
             </div>
         </nav>
